@@ -1,0 +1,226 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Varela Round', sans-serif;
+    background-color: #e0e0e0;
+    transition: background-color 0.3s ease; 
+  
+    }
+    
+    header {
+      background-color: #020F5B;
+    color: #F0F0F2;
+    padding: 20px;
+    text-align: center;
+    transition: background-color 0.3s ease; 
+  
+    }
+    
+    header img {
+      display: block; 
+      margin: 0 auto; 
+    }
+    
+    header h1 {
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+    
+    header h2 {
+      font-size: 18px;
+      font-weight: normal;
+    }
+  
+  
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    
+    nav ul li {
+      display: inline;
+      margin-right: 10px;
+    }
+    
+    nav ul li a {
+      display: block;
+      padding: 10px;
+      text-decoration: none;
+      color: #F0F0F2;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+    
+    nav ul li a:hover {
+      color: #F0F0F2;
+    }
+    
+    main {
+      padding: 20px;
+    }
+    
+    #noticias {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 40px;
+    }
+    
+    .noticia {
+      width: 300px; 
+      margin-bottom: 30px;
+      padding: 50px;
+      background-color: #d0d0d0;
+      border-radius: 40px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    
+    .noticia h3 {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+    
+    .noticia p {
+      font-size: 16px;
+      color: black;
+      line-height: 1.5;
+    }
+    
+    .noticia a {
+      color: #00BFB2;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+    
+    .noticia a:hover {
+      color: #d0d0d0;
+    }
+    
+    
+    #comentarios {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 20px;
+    }
+    
+    #comentarios article {
+      background-color: #d0d0d0;
+      padding: 30px;
+      border-radius: 20px; 
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      transition: background-color 0.3s ease;
+    }
+    
+    #comentarios article:hover {
+      background-color: #f0f0f0;
+    }
+  
+    #comentarios img {
+      width: 100px;
+      height: auto;
+      border-radius: 10px;
+      margin-bottom: 10px;
+    }
+    
+    #comentarios p {
+      font-size: 14px;
+      color: #402D1C;
+    }
+    
+    #deja_tu_comentario {
+      width: 500px; 
+      margin: auto; 
+      background-color: #d0d0d0;
+      border: 1px solid #afafb0;
+      border-radius: 40px;
+      padding: 20px;
+      margin-top: 40px;
+      text-align: center;
+  
+    }
+    
+    #deja_tu_comentario label {
+      display: block;
+      margin-bottom: 10px;
+      font-weight: bold;
+  
+    }
+    
+    #deja_tu_comentario input[type="text"],
+    #deja_tu_comentario input[type="email"],
+    #deja_tu_comentario textarea {
+      width: 400px;
+      padding: 10px;
+      border-radius: 20px;
+      border: 1px solid #f3e3e3;
+      margin-bottom: 10px;
+      
+    }
+    
+    #deja_tu_comentario button {
+      background-color: #1D438A;
+      color: #F0F0F2;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 20px;
+      cursor: pointer;
+      
+    }
+    
+    #deja_tu_comentario button:hover {
+      background-color: #1D438A;
+    }
+    
+    aside {
+      position: absolute;
+      top: 1070px;
+      width: 200px;
+      right: 100px;
+      z-index: 9;
+      background-color: #d0d0d0;
+      border: 1px solid black;
+      border-radius: 40px;
+      padding: 30px;
+      text-align: center;
+    }
+    
+    aside h4 {
+      font-size: 20px;
+      margin-bottom: 20px;
+    }
+    
+    footer {
+      background-color: #1D438A ;
+      color: #D9D7D7;
+      padding: 10px;
+      text-align: center;
+    }
+    .comentario {
+      transition: background-color 0.3s ease; 
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .comentario:hover {
+    background-color: #f0f0f0;
+  }
+  .boton-eliminar {
+   background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  
+  }
+  
+  .boton-eliminar:hover {
+    background-color: #d32f2f;
+  }
+  #comentarios {
+    transition: height 0.3s ease;
+  }
+  
+  
